@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/justincatingub/Desktop/school/DSA/Activities/Bit Vector Set/var1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initialize, symObjAddr: 0x0, symBinAddr: 0x100003AD8, symSize: 0x18 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _initialize, symObjAddr: 0x0, symBinAddr: 0x100003AD8, symSize: 0x18 }
+  - { offsetInCU: 0x65, offset: 0x65, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x18, symBinAddr: 0x100003AF0, symSize: 0x5C }
+  - { offsetInCU: 0x97, offset: 0x97, size: 0x8, addend: 0x0, symName: _delete, symObjAddr: 0x74, symBinAddr: 0x100003B4C, symSize: 0x5C }
+  - { offsetInCU: 0xC9, offset: 0xC9, size: 0x8, addend: 0x0, symName: _find, symObjAddr: 0xD0, symBinAddr: 0x100003BA8, symSize: 0x80 }
+  - { offsetInCU: 0xFF, offset: 0xFF, size: 0x8, addend: 0x0, symName: _union_set, symObjAddr: 0x150, symBinAddr: 0x100003C28, symSize: 0x24 }
+  - { offsetInCU: 0x135, offset: 0x135, size: 0x8, addend: 0x0, symName: _intersection_set, symObjAddr: 0x174, symBinAddr: 0x100003C4C, symSize: 0x24 }
+  - { offsetInCU: 0x16B, offset: 0x16B, size: 0x8, addend: 0x0, symName: _difference_set, symObjAddr: 0x198, symBinAddr: 0x100003C70, symSize: 0x24 }
+  - { offsetInCU: 0x1A1, offset: 0x1A1, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0x1BC, symBinAddr: 0x100003C94, symSize: 0xD4 }
+  - { offsetInCU: 0x1EF, offset: 0x1EF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x290, symBinAddr: 0x100003D68, symSize: 0x1B0 }
+...

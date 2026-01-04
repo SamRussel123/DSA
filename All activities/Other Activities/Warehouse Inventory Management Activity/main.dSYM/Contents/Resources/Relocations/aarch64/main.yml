@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/justincatingub/Desktop/school/DSA/Activities/Warehouse Inventory Management Activity/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initializeStack, symObjAddr: 0x0, symBinAddr: 0x1000034C8, symSize: 0x1C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _initializeStack, symObjAddr: 0x0, symBinAddr: 0x1000034C8, symSize: 0x1C }
+  - { offsetInCU: 0x65, offset: 0x65, size: 0x8, addend: 0x0, symName: _isFull, symObjAddr: 0x1C, symBinAddr: 0x1000034E4, symSize: 0x24 }
+  - { offsetInCU: 0x8D, offset: 0x8D, size: 0x8, addend: 0x0, symName: _isEmpty, symObjAddr: 0x40, symBinAddr: 0x100003508, symSize: 0x24 }
+  - { offsetInCU: 0xB5, offset: 0xB5, size: 0x8, addend: 0x0, symName: _push, symObjAddr: 0x64, symBinAddr: 0x10000352C, symSize: 0x68 }
+  - { offsetInCU: 0xE7, offset: 0xE7, size: 0x8, addend: 0x0, symName: _pop, symObjAddr: 0xCC, symBinAddr: 0x100003594, symSize: 0x78 }
+  - { offsetInCU: 0x11D, offset: 0x11D, size: 0x8, addend: 0x0, symName: _peek, symObjAddr: 0x144, symBinAddr: 0x10000360C, symSize: 0x68 }
+  - { offsetInCU: 0x153, offset: 0x153, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0x1AC, symBinAddr: 0x100003674, symSize: 0xA8 }
+  - { offsetInCU: 0x193, offset: 0x193, size: 0x8, addend: 0x0, symName: _pushToAvailableStack, symObjAddr: 0x254, symBinAddr: 0x10000371C, symSize: 0xBC }
+  - { offsetInCU: 0x1E5, offset: 0x1E5, size: 0x8, addend: 0x0, symName: _popFromLatestStack, symObjAddr: 0x310, symBinAddr: 0x1000037D8, symSize: 0xA0 }
+  - { offsetInCU: 0x229, offset: 0x229, size: 0x8, addend: 0x0, symName: _containerExists, symObjAddr: 0x3B0, symBinAddr: 0x100003878, symSize: 0xE0 }
+  - { offsetInCU: 0x297, offset: 0x297, size: 0x8, addend: 0x0, symName: _displayStacks, symObjAddr: 0x490, symBinAddr: 0x100003958, symSize: 0x11C }
+  - { offsetInCU: 0x2F3, offset: 0x2F3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5AC, symBinAddr: 0x100003A74, symSize: 0x2B8 }
+...
